@@ -1,10 +1,5 @@
 # Shuttle.Core.Contract
 
-```
-PM> Install-Package Shuttle.Core.Contract
-```
-
-
 A guard implementation that performs assertions/assumptions to prevent invalid code execution.
 
 # Guard

@@ -1,7 +1,6 @@
-﻿namespace Shuttle.Core.Contract.Tests
+﻿namespace Shuttle.Core.Contract.Tests;
+
+public class FixtureItem
 {
-    public class FixtureItem
-    {
-        public string Name { get; set; }
-    }
+    public string Name { get; set; }
 }
