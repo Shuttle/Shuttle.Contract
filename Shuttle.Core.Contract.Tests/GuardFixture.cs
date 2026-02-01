@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
@@ -109,7 +109,8 @@ public class GuardFixture
     [Test]
     public void Should_be_able_to_guard_against_an_empty_enumerable()
     {
-        Assert.That(() => Guard.AgainstEmpty(new List<string>(), "list"), Throws.TypeOf<InvalidOperationException>());
+        Assert.That(() => Guard.AgainstEmpty(new List<string>(), "list"), Throws.TypeOf<ArgumentException>());
+        Assert.That(() => Guard.AgainstEmpty((List<string>?)null, "list"), Throws.TypeOf<ArgumentNullException>());
 
         var list = new List<string>
         {
