@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
 
-namespace Shuttle.Core.Contract.Tests;
+namespace Shuttle.Contract.Tests;
 
 [TestFixture]
 public class GuardFixture

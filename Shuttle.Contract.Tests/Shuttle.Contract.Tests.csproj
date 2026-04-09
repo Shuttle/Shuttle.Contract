@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shuttle.Core.Contract\Shuttle.Core.Contract.csproj" />
+    <ProjectReference Include="..\Shuttle.Contract\Shuttle.Contract.csproj" />
   </ItemGroup>
 
 </Project>

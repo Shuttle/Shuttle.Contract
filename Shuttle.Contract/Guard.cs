@@ -1,7 +1,7 @@
 using System.Globalization;
 using System.Runtime.CompilerServices;
 
-namespace Shuttle.Core.Contract;
+namespace Shuttle.Contract;
 
 public class Guard
 {

@@ -30,8 +30,8 @@
   <PropertyGroup>
     <Description>A guard implementation that performs asserts/assumptions to prevent invalid code execution.</Description>
     <Version>21.0.1-rc3</Version>
-    <PackageProjectUrl>https://github.com/shuttle/Shuttle.Core.Contract</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/shuttle/Shuttle.Core.Contract.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/shuttle/Shuttle.Contract</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shuttle/Shuttle.Contract.git</RepositoryUrl>
     <PackageTags>shuttle guard</PackageTags>
     <Authors>Eben Roux</Authors>
     <Company>Shuttle</Company>

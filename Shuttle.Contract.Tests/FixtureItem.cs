@@ -1,4 +1,4 @@
-﻿namespace Shuttle.Core.Contract.Tests;
+﻿namespace Shuttle.Contract.Tests;
 
 public class FixtureItem
 {
